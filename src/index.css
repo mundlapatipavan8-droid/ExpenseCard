@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background: #f4f6f4;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+  padding: 16px;
+  border-radius: 8px;
+  background: white;
+}
+
+h2,
+p {
+  margin: 0 0 6px;
+}
+
+button {
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background: #b33b35;
+  cursor: pointer;
+}
